@@ -4,8 +4,11 @@
     h2{color: red;}
     h3{color: red;}
     h4{color: white;}
-    p{color: red;}
     li{color: red;}
     a{color: dodgerblue;}
     tr{color: white;}
     td{color: red;}
+    .classe1{color: white;}
+    .homepage:hover{color:pink}
+    #a{color: blueviolet;}
+   
