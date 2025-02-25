@@ -1,0 +1,18 @@
+h1{color: blue;}
+a{color: rgb(0, 132, 255);}
+.dotted{border-style: dotted;
+height: 20px;
+width: 100px;
+}
+button{background-color:rgb(255, 174, 0);
+height: 50px;
+width: 100px;
+}
+body{background-image:url(cs2.jpg);
+}
+.pagina2{color: blue;}
+.pagina3{color: blue;}
+table{color: orange;}
+p{color: blue;}
+h1{color: orange;}
+h2{color: orange;}
