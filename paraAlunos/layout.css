@@ -1,0 +1,109 @@
+body {
+    font-family: Sans-Serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc;
+    text-align: center;
+}
+.fundo{background-color: bisque;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+}
+.fundo1{background-color: bisque;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+border-color:bisque}
+header {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 3px solid blue;
+}
+
+.logo img {
+    width: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    color: green;
+}
+nav {
+    background-color: lightskyblue;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.introducao, .livros, .videos, .contatos {
+    padding: 20px;
+}
+.introducao{color: indigo;}
+.livros-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.livros-container img {
+    width: 150px;
+    height: auto;
+}
+
+.video-mapa {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-mapa iframe {
+    width: 300px;
+    height: 200px;
+}
+.bordafora{border-style: dotted;width: 10%; height: 10%; border-color: darkred;}
+.bordafora tr th{color: red;}
+.contatos table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid red;
+    outline: dashed red 5px;
+}
+
+.contatos th, .contatos td {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.recursos{
+background-color: yellow;
+margin-left: 500px;
+margin-right: 500px;
+text-align: left;
+}
+.recursos ul li a{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    
+}
