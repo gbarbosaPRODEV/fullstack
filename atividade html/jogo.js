@@ -9,7 +9,7 @@ function checkGuess() {
         message.style.color = "yellow";
         return;
     }
-
+    if (userGuess == 22){message}
     if (userGuess === randomNumber) {
         message.textContent = "Parabéns! Você acertou o número!";
         message.style.color = "green";
