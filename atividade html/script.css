@@ -1,12 +1,46 @@
-body {
-    background-color: #e0e0e0;
+.header{
     display: flex;
+    justify-content: center;
+    text-align: center;
     flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
-}
-
-canvas {
-    border: 1px solid #000;
-    margin: 20px 0;
-}
+    background-color: black;
+    color: white;
+    border: inset black;
+    font-family: 'Times New Roman', Times, serif;
+    }
+  nav{
+        background-color: black;
+        border: inset black;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 50px;
+  }
+  #meuCanvas{
+  background-color: white;
+  }
+  #meuCanvas2{
+  background-color: white;
+  }
+  body{
+  background-color: black;
+  }
+  canvas {
+      border: 1px solid red;
+    }
+  .centerbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  h1{
+  color: red;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  h2{
+  color: red;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
