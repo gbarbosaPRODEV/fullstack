@@ -1,9 +1,0 @@
-Cores:
-    bisque
-    darkgreen
-    lightskyblue
-    lightgray
-    darkred
-    indigo
-    red
-    yellow
